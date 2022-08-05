@@ -1,0 +1,15 @@
+.price {
+    &__subtitle {
+        margin-top: 50px;
+        position: relative;
+        @include before_circle;
+        text-align: center;
+        &::before {
+            left: 551px;
+            top: -5px;
+        }
+    }
+    &__line {
+        margin: 40px auto;
+    }
+}
